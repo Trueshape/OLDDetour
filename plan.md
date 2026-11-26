@@ -1,4 +1,4 @@
-# plan.md — Toolbox, versione 1
+# plan.md — OLDDetour, versione 1
 
 Un passo alla volta. Finito un passo: spunta la casella, azzera il contesto, passa al successivo.
 Riferimenti: [PROJECT.md](PROJECT.md), [DESIGN.md](DESIGN.md).

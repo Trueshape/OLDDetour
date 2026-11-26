@@ -1,4 +1,4 @@
-// api.ts — API locali di Toolbox, attive solo con "npm run dev" (come middleware di Vite).
+// api.ts — API locali di OLDDetour, attive solo con "npm run dev" (come middleware di Vite).
 // Leggono e scrivono data/catalog.json, scaricano titoli, immagini e favicon. Nella versione pubblica non esistono.
 
 import type { IncomingMessage, ServerResponse } from "node:http";
@@ -24,7 +24,7 @@ async function readJson(req: IncomingMessage): Promise<Json> {
   return JSON.parse(Buffer.concat(chunks).toString("utf8") || "{}") as Json;
 }
 
-const UA = { "User-Agent": "Mozilla/5.0 Toolbox" };
+const UA = { "User-Agent": "Mozilla/5.0 OLDDetour" };
 const notWritable = { error: "sola lettura in produzione" };
 
 // --- sito / categorie / impostazioni ---
@@ -258,9 +258,9 @@ const routes: Route[] = [
   { method: "POST", path: /^\/api\/favicons$/, run: (_q, res) => refreshFavicons(res) },
 ];
 
-export function toolboxApi(): Plugin {
+export function oldDetourApi(): Plugin {
   return {
-    name: "toolbox-api",
+    name: "olddetour-api",
     apply: "serve",
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {

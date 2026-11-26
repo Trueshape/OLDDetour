@@ -1,14 +1,14 @@
-# Toolbox
+# OLDDetour
 
 Catalogo personale di siti web utili e curiosi, divisi per categoria.
 
-- **Sito pubblico (sola lettura):** https://trueshape.github.io/Toolbox/
-- **Repo:** https://github.com/Trueshape/Toolbox
+- **Sito pubblico (sola lettura):** https://trueshape.github.io/OLDDetour/
+- **Repo:** https://github.com/Trueshape/OLDDetour
 
 ## Avvio in locale
 
 1. Installa Node.js (versione LTS) da https://nodejs.org, se non c'è.
-2. Fai doppio clic su `Avvia Toolbox.bat`.
+2. Fai doppio clic su `Avvia OLDDetour.bat`.
 
 La prima volta installa le dipendenze. Il browser si apre su http://localhost:3100.
 Chiudendo la pagina, il server si spegne da solo dopo circa 20 secondi.

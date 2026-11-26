@@ -9,3 +9,4 @@
 - 2026-10-15 — Passaggio da Next.js a Vite — avvio locale molto più rapido (circa 1 secondo contro circa 6).
 - 2026-10-15 — Repo `Toolbox` pubblico — necessario per GitHub Pages su account gratuito. Contrasta con REQUIREMENTS.md (repo privato): scelta dell'utente.
 - 2026-10-15 — Server locale si chiude da solo quando la pagina viene chiusa — evita finestre nere rimaste aperte.
+- 2026-11-26 — Progetto e repo rinominati da Toolbox a OLDDetour (richiesta dell'utente): il sito pubblico è ora https://trueshape.github.io/OLDDetour/. Il nome Toolbox passa al progetto ex allin1.

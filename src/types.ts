@@ -1,4 +1,4 @@
-// types.ts — tipi condivisi di Toolbox (Site, Category, Catalog)
+// types.ts — tipi condivisi di OLDDetour (Site, Category, Catalog)
 
 export type Category = string; // le categorie si creano dall'app
 

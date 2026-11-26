@@ -1,7 +1,7 @@
 # overview.md — file del progetto
 
 ## Radice
-- `Avvia Toolbox.bat`: avvia il server in locale e apre il browser.
+- `Avvia OLDDetour.bat`: avvia il server in locale e apre il browser.
 - `README.md`: istruzioni per l'uso.
 - `CLAUDE.md`: regole per l'AI.
 - `overview.md`: questo file.
@@ -11,7 +11,7 @@
 - `plan.md`: piano di lavoro della versione 1.
 - `index.html`: pagina base caricata da Vite.
 - `package.json`, `package-lock.json`: dipendenze e script.
-- `vite.config.ts`: configurazione Vite (percorso pubblico `/Toolbox/`, API locali).
+- `vite.config.ts`: configurazione Vite (percorso pubblico `/OLDDetour/`, API locali).
 - `tsconfig.json`: configurazione TypeScript.
 - `components.json`: configurazione shadcn.
 - `.gitignore`: file esclusi da git (dipendenze, `dist/`, `data/backups/`).

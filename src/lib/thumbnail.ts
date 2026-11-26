@@ -28,7 +28,7 @@ export async function captureThumbnail(url: string): Promise<string | null> {
   const browser = await findBrowser();
   if (!browser) return null;
 
-  const out = path.join(os.tmpdir(), "toolbox-" + Date.now() + "-" + Math.random().toString(36).slice(2) + ".png");
+  const out = path.join(os.tmpdir(), "olddetour-" + Date.now() + "-" + Math.random().toString(36).slice(2) + ".png");
   await new Promise<void>((resolve) => {
     execFile(
       browser,

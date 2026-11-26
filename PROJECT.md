@@ -14,8 +14,8 @@ Cerca "[idea] open source" e "[idea] app". Se qualcosa fa già l'80%, usalo o pa
 
 ## 1. Scopo (10 min)
 
-- **Nome:** Toolbox
-- **Cosa fa, in una frase:** Toolbox raccoglie e cataloga siti web utili e poco conosciuti, per chi ama scoprire cose di nicchia sul web.
+- **Nome:** OLDDetour
+- **Cosa fa, in una frase:** OLDDetour raccoglie e cataloga siti web utili e poco conosciuti, per chi ama scoprire cose di nicchia sul web.
 - **Nicchia (per chi, quale settore):** utenti curiosi che cercano siti diversi dal solito, per categoria
 - **Finito quando** (massimo 3 criteri verificabili):
   1. Posso aggiungere un sito (nome, url, categoria, thumbnail, descrizione) modificando un file e vederlo comparire online

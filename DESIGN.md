@@ -1,6 +1,6 @@
-# DESIGN.md — Toolbox
+# DESIGN.md — OLDDetour
 
-Riferimento: mockup "Griglia modulare" (canva Toolbox, artboard `Griglia.dc.html`).
+Riferimento: mockup "Griglia modulare" (canva OLDDetour, artboard `Griglia.dc.html`).
 
 ## Impianto (struttura della pagina)
 

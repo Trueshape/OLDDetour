@@ -8,14 +8,14 @@ export async function fetchFavicon(siteUrl: string): Promise<string | null> {
     const origin = new URL(siteUrl).origin;
     const page = await fetch(origin, {
       signal: AbortSignal.timeout(5000),
-      headers: { "User-Agent": "Mozilla/5.0 Toolbox" },
+      headers: { "User-Agent": "Mozilla/5.0 OLDDetour" },
     });
     const html = (await page.text()).slice(0, 200_000);
     const link = html.match(/<link[^>]+rel=["'][^"']*icon[^"']*["'][^>]*>/i);
     const href = link?.[0].match(/href=["']([^"']+)["']/i)?.[1] ?? "/favicon.ico";
     const res = await fetch(new URL(href, origin), {
       signal: AbortSignal.timeout(5000),
-      headers: { "User-Agent": "Mozilla/5.0 Toolbox" },
+      headers: { "User-Agent": "Mozilla/5.0 OLDDetour" },
     });
     const type = res.headers.get("content-type") ?? "";
     if (!res.ok || !type.startsWith("image/")) return null;
